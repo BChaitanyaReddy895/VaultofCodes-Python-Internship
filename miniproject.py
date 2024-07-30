@@ -37,7 +37,7 @@ def mark_task_complete(complete_task_num):
 def update_tasks(task_num,update_task):
     for i, t in enumerate(task, 1):
         print(f"{i}. {t}")
-    if (0<task_num<=len(task)):
+    if (0<=task_num<len(task)):
         task[task_num]=update_task
         print("Task updated successfully.")
     else:
