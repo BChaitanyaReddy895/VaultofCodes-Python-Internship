@@ -1,4 +1,7 @@
-#initialising the empty list for storing the tasks 
+# Project Overview:
+"""Objective: Develop a simple to-do list application using Python with an emphasis on
+functions and data structures."""
+# initialising the empty list for storing the tasks 
 task = []
 # defining user defined functions for various operations on to-do list
 # function to add the tasks in to the to-do list
